@@ -1,0 +1,39 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+struct Probka{
+double t;
+double x;
+Probka(double t,double x)
+{
+    t=t;
+    x=x;
+}
+};
+Probka
+typedef vector<Probka>
+
+wczytaj (string sygnal.csv)
+{
+
+    vector<Probka> tablica;
+    ifstream plik (sygnal.csv);
+    string linia;
+    while (getline(sygnal.csv,linia))
+    {
+        cout << linia << endl;
+    }
+    plik.close();
+}
+int main(int argc, char* argv[])
+{
+    if (argc != 2)
+        {
+throw runtime_error("sygnal.csv");
+}
+string nazwa_pliku = argv[1];
+cout << "odczytuje sygnal:" << sygnal.csv << endl;
+}
